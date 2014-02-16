@@ -7,7 +7,9 @@ import views.html.index;
 public class Application extends Controller {
 
 	public static Result index() {
-		return ok("200");
+		
+		
+		return ok(index.render()); // Aqui colocar uma lista de períodos qualquer 
 	}
 
 }

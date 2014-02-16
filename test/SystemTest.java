@@ -1,13 +1,14 @@
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
+import model.Disciplina;
+import model.ListaDeDisciplinas;
+import model.Periodo;
+import model.PlanoDeCurso;
+
 import org.junit.Before;
 import org.junit.Test;
 
-import controllers.Disciplina;
-import controllers.ListaDeDisciplinas;
-import controllers.Periodo;
-import controllers.PlanoDeCurso;
 
 
 public class SystemTest {
